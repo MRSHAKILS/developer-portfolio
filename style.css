@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+
+}
+h1{
+    font-size: 80px;
+    
+}   
+.orange-color{
+    color: #fe3e00;
+}
+
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.Fb-button{
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#fec300, #fe3e00);
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
