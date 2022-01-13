@@ -13,6 +13,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 300px;
 }
 .half-width{
     width: 50%;
@@ -31,5 +32,14 @@ section{
 }
 .top-banner{
     background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.freelancing{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.pandemic{
+    background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
 }
