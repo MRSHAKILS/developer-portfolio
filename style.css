@@ -4,9 +4,11 @@ body{
 
 }
 h1{
-    font-size: 80px;
-    
+    font-size: 60px;    
 }   
+h2{
+    font-size: 30px;
+}
 .orange-color{
     color: #fe3e00;
 }
@@ -52,6 +54,38 @@ h1{
 }
 .exp{
     color: #d18400;
+    font-size: 50px;
+
+}
+.business{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.box{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-left: 15px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
+#devex{
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow, salmon);
+    border-image-slice: 1;
+}
+
+#dev-pro{
+    border-left: 5px solid;
+    border-image: linear-gradient(cyan, blue );
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
 .pandemic{
     background-image: url(images/exp-bg.png);
