@@ -11,7 +11,7 @@ h1{
     color: #fe3e00;
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 300px;
 }
@@ -39,7 +39,29 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.brown{
+    color: rgb(235, 103, 15);
+}
+.course{
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#f87b07, #9b572a );
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+.exp{
+    color: #d18400;
+}
 .pandemic{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+}
+.Corona{
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(#0083fe, #00d8fe);
+    padding: 6px 15px;
+    border-radius: 10px;
 }
